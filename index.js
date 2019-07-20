@@ -1,15 +1,15 @@
 var katzDeliLine = ['Ada', 'Bill', 'Anne'];
-// var peopleInLine1 = [];
+var peopleInLine1 = [];
 
-// for (var i = 0; i < katzDeliLine.length; i++) {
-//   peopleInLine1.push(` ${i+1}. ${katzDeliLine[i]}`)
-//   // console.log(`The line is currently:${peopleInLine1}.`)
-// }
-// console.log(`The line is currently:${peopleInLine1}.`)
-// console.log(peopleInLine1)
-// The line is currently: 1. Ada
-// The line is currently: 2. Bill
-// The line is currently: 3. Anna
+for (var i = 0; i < katzDeliLine.length; i++) {
+  peopleInLine1.push(` ${i+1}. ${katzDeliLine[i]}`)
+  // console.log(`The line is currently:${peopleInLine1}.`)
+}
+console.log(`The line is currently:${peopleInLine1}.`)
+console.log(peopleInLine1)
+The line is currently: 1. Ada
+The line is currently: 2. Bill
+The line is currently: 3. Anna
 
 
 function takeANumber(array, personName) {
